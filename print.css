@@ -39,3 +39,6 @@ th, td{
     border-style: inset;
     border-radius: 5px;
 }
+html {
+    filter: grayscale(100%);
+}
