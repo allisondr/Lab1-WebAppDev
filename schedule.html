@@ -1,10 +1,132 @@
+<!--
+Lab 1 - Schedule Web Page
+Damien Allison
+041
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>D. Allison - Y2T2 Schedule</title>
+    <link rel="stylesheet" href="browser.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="print.css" type="text/css" media="print"/>
 </head>
-<body>
+    <body>
+        <img id="calendarImg" src="calendar.png" alt="Image of a calendar"/>
+        <h3> Damien Allison</h3>
+        <p>This is Damien's Winter Schedule for the 2022-2023 school year. If you would like to view these
+        courses more in depth go to the <a href="https://catalog.msoe.edu/" target="_blank">M.S.O.E. Course Catalog.</a></p>
+        <a href="https://www.msoe.edu/">MSOE</a>
 
-</body>
+        <table>
+<!--            Table Headers-->
+            <tr>
+                <th id = "firstcol">Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+<!--            800 Row-->
+            <tr>
+                <td>8:00</td>
+                <td class="course se_2811">SE 2811 011</td>
+                <td></td>
+                <td rowspan="2" class="course se_2811">
+                    SE 2811 011
+                    <br>
+                    &lt;LAB&gt;
+                </td>
+                <td class="course se_2811">SE 2811 011</td>
+                <td class="course se_2811">SE 2811 011</td>
+            </tr>
+<!--            900 Row-->
+            <tr>
+                <td>9:00</td>
+                <td class="course cs_2711">CS 2711 001</td>
+                <td class="course cs_2711">CS 2711 001</td>
+                <td class="course cs_2711">CS 2711 001</td>
+                <td class="course cs_2711">CS 2711 001</td>
+            </tr>
+<!--            1000 Row-->
+            <tr>
+                <td>10:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+<!--            1100 Row-->
+            <tr>
+                <td>11:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+<!--            1200 Row-->
+            <tr>
+                <td>12:00</td>
+                <td class="course freeHour">Free Hour</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="course freeHour">Free Hour</td>
+            </tr>
+<!--            1300 Row-->
+            <tr>
+                <td>13:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="2" class="course se_2840">
+                    SE 2840 041
+                    <br>
+                    &lt;LAB&gt;
+                </td>
+                <td></td>
+            </tr>
+<!--            1400 Row-->
+            <tr>
+                <td>14:00</td>
+                <td class="course se_2840">SE 2840 041</td>
+                <td class="course se_2840">SE 2840 041</td>
+                <td></td>
+                <td class="course se_2840">SE 2840 041</td>
+            </tr>
+<!--            1500 Row-->
+            <tr>
+                <td>15:00</td>
+                <td class="course ch_201">CH 201 071</td>
+                <td rowspan="2" class="course ch_201">
+                    CH 201 071
+                    <br>
+                    &lt;LAB&gt;
+                </td>
+                <td class="course ch_201">CH 201 071</td>
+                <td></td>
+                <td class="course ch_201">CH 201 071</td>
+            </tr>
+<!--            1600 Row-->
+            <tr>
+                <td>16:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+<!--            1700 Row-->
+            <tr>
+                <td>17:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
 </html>
