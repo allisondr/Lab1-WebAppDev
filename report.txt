@@ -25,8 +25,7 @@ Summary - a reflection of what you learned in this lab
     had to overcome.
 
 Suggestions - a list of suggestions for improvement and/or what you enjoyed about this lab
-    I would suggest adding additional HTML files that may contain other schedules which link to the original page.
-    This would demonstrate how HTML files interact with each other.
+    Table cells should be hyperlinked to other html pages that provide course descriptions.
 
 Resources
     All resources that I used were found on w3schools.com
