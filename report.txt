@@ -4,10 +4,30 @@ Damien Allison
 
 
 
-Introduction
+Introduction - a description of the lab in your own words
+    The goal of this lab was to demonstrate my knowledge of HTML and CSS
+    by creating a web page of my schedule for the second term of this school year.
 
-Summary
+    Key elements in this lab include the use of:
+        - different CSS files for both viewing and printing the website.
+        - pseudo-classes in table data elements.
+        - classes to specify how elements rendered.
+        - ids to target specific elements.
 
-Suggestions
+Summary - a reflection of what you learned in this lab
+    The most significant thing I learned in this lab was the ability to have your website
+    render differently depending on the viewing media. I have had experience with HTML and CSS
+    but have never come across this capability.
+
+    Another thing I did not have a lot of experience with is formatting tables. When rowspan is
+    set to a value greater than one, it counts that table data as present in all the rows it occupies.
+    This shifted some of the data that was already present to different columns. This was something I
+    had to overcome.
+
+Suggestions - a list of suggestions for improvement and/or what you enjoyed about this lab
+    I would suggest adding additional HTML files that may contain other schedules which link to the original page.
+    This would demonstrate how HTML files interact with each other.
 
 Resources
+    All resources that I used were found on w3schools.com
+    Most notably the css filter property: https://www.w3schools.com/cssref/css3_pr_filter.php

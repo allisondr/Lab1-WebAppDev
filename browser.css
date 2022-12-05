@@ -37,6 +37,7 @@ Damien Allison
     background-color: darkgoldenrod;
     color: yellow;
 }
+
 body {
     text-align: center;
     font-family: Rockwell, monospace;
@@ -61,6 +62,9 @@ th {
     color: aliceblue;
     font-weight: bold;
     font-style: italic;
+}
+td:hover {
+    border-color: black;
 }
 a {
     text-decoration: none;
